@@ -35,7 +35,7 @@
     "eject": "react-scripts eject",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
-    "lint": "eslint . --ext ts --ext tsx --ext js",
+    "lint": "eslint . --ext tsx --fix",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
   },
@@ -63,7 +63,7 @@
     }
   },
   "lint-staged": {
-    "*.@(ts|tsx)": [
+    "src/**/*.tsx": [
       "yarn lint",
       "yarn format"
     ]

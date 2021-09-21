@@ -1,4 +1,5 @@
 import { Nav } from "react-bootstrap";
+import mainLogoImg from "../image/mainLogo.png";
 
 const Navigation = () => {
   return (
@@ -7,7 +8,7 @@ const Navigation = () => {
       id="navigation"
     >
       <div className="p-3">
-        <img src="/mainLogo.png" className="rounded-circle w-100" />
+        <img src={mainLogoImg} className="rounded-circle w-100" />
       </div>
       <Nav.Link className="" href="#top">
         Top

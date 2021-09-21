@@ -4,6 +4,20 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { ScrollSpy } from "bootstrap";
+import tomoyoSugaiImg from "./image/artist/tomoyoSugai.jpg";
+import komatsuDaiImg from "./image/artist/fuppy.jpeg";
+import yasukoTeramachiImg from "./image/artist/logo192.png";
+import hiroshiJoImg from "./image/artist/logo192.png";
+import yukiKojimaBandImg from "./image/artist/yukiKojimaBand.jpg";
+import sCeltsImg from "./image/artist/logo192.png";
+import allyCaravanImg from "./image/artist/allyCaravan.jpg";
+import deDonhnaighImg from "./image/artist/deDomhnaigh.jpg";
+import shimaOhashiImg from "./image/artist/shimaOhashi.jpg";
+import rikoMatsuokaImg from "./image/artist/rikoMatsuoka.jpg";
+import embassyImg from "./image/artist/logo192.png";
+import odeIncImg from "./image/artist/logo192.png";
+import celtNoFueImg from "./image/artist/logo192.png";
+import tradOnImg from "./image/sponsor/tradOn.png";
 
 const App = () => {
   useEffect(() => {
@@ -34,7 +48,11 @@ const App = () => {
             <h1>Schedule</h1>
             <ul className="timeline">
               <li>
-                <a target="_blank" href="https://www.totoprayogo.com/#">
+                <a
+                  target="_blank"
+                  href="https://www.totoprayogo.com/#"
+                  rel="noreferrer"
+                >
                   New Web Design
                 </a>
                 <a href="#" className="float-right">
@@ -80,7 +98,7 @@ const App = () => {
               <h3>音楽ワークショップ</h3>
               <Col xs="6" className="text-center">
                 <Image
-                  src="/tomoyoSugai.jpg"
+                  src={tomoyoSugaiImg}
                   className="w-50"
                   roundedCircle
                   thumbnail
@@ -89,7 +107,7 @@ const App = () => {
               </Col>
               <Col xs="6" className="text-center">
                 <Image
-                  src="/fuppy.jpeg"
+                  src={komatsuDaiImg}
                   className="w-50"
                   roundedCircle
                   thumbnail
@@ -101,7 +119,7 @@ const App = () => {
               <h3>ダンスワークショップ</h3>
               <Col xs="6" className="text-center">
                 <Image
-                  src="/favicon.ico"
+                  src={yasukoTeramachiImg}
                   className="w-50"
                   roundedCircle
                   thumbnail
@@ -110,7 +128,7 @@ const App = () => {
               </Col>
               <Col xs="6" className="text-center">
                 <Image
-                  src="/favicon.ico"
+                  src={hiroshiJoImg}
                   className="w-50"
                   roundedCircle
                   thumbnail
@@ -122,7 +140,7 @@ const App = () => {
               <h3>コンサート</h3>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/yukiKojimaBand.jpg"
+                  src={yukiKojimaBandImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -131,7 +149,7 @@ const App = () => {
               </Col>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/favicon.ico"
+                  src={sCeltsImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -140,7 +158,7 @@ const App = () => {
               </Col>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/allyCaravan.jpg"
+                  src={allyCaravanImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -149,7 +167,7 @@ const App = () => {
               </Col>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/deDomhnaigh.jpg"
+                  src={deDonhnaighImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -158,7 +176,7 @@ const App = () => {
               </Col>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/shimaOhashi.jpg"
+                  src={shimaOhashiImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -167,7 +185,7 @@ const App = () => {
               </Col>
               <Col xs="4" className="text-center">
                 <Image
-                  src="/rikoMatsuoka.jpg"
+                  src={rikoMatsuokaImg}
                   className="w-75"
                   roundedCircle
                   thumbnail
@@ -181,19 +199,19 @@ const App = () => {
             <h1>Sponsor</h1>
             <Row>
               <Col xs="3" className="text-center">
-                <Image src="/favicon.ico" className="w-50" rounded thumbnail />
+                <Image src={embassyImg} className="w-50" rounded thumbnail />
                 <p>アイルランド大使館</p>
               </Col>
               <Col xs="3" className="text-center">
-                <Image src="/favicon.ico" className="w-50" rounded thumbnail />
+                <Image src={odeIncImg} className="w-50" rounded thumbnail />
                 <p>Ode.inc</p>
               </Col>
               <Col xs="3" className="text-center">
-                <Image src="/favicon.ico" className="w-50" rounded thumbnail />
+                <Image src={celtNoFueImg} className="w-50" rounded thumbnail />
                 <p>ケルトの笛屋さん</p>
               </Col>
               <Col xs="3" className="text-center">
-                <Image src="/tradOn.png" className="w-50" rounded thumbnail />
+                <Image src={tradOnImg} className="w-50" rounded thumbnail />
                 <p>Trad On</p>
               </Col>
             </Row>
