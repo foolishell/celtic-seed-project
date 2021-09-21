@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celtic-seed-project/static/css/main.d6a21975.chunk.css",
-    "main.js": "/celtic-seed-project/static/js/main.05bfe2a4.chunk.js",
-    "main.js.map": "/celtic-seed-project/static/js/main.05bfe2a4.chunk.js.map",
+    "main.js": "/celtic-seed-project/static/js/main.dcf6af47.chunk.js",
+    "main.js.map": "/celtic-seed-project/static/js/main.dcf6af47.chunk.js.map",
     "runtime-main.js": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js",
     "runtime-main.js.map": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js.map",
     "static/js/2.125a96e0.chunk.js": "/celtic-seed-project/static/js/2.125a96e0.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.125a96e0.chunk.js.LICENSE.txt": "/celtic-seed-project/static/js/2.125a96e0.chunk.js.LICENSE.txt",
     "static/media/allyCaravan.a4b0237e.jpg": "/celtic-seed-project/static/media/allyCaravan.a4b0237e.jpg",
     "static/media/deDomhnaigh.ef723135.jpg": "/celtic-seed-project/static/media/deDomhnaigh.ef723135.jpg",
+    "static/media/mainLogo.376d0ba0.png": "/celtic-seed-project/static/media/mainLogo.376d0ba0.png",
     "static/media/rikoMatsuoka.501a62eb.jpg": "/celtic-seed-project/static/media/rikoMatsuoka.501a62eb.jpg",
     "static/media/shimaOhashi.e794fd3c.jpg": "/celtic-seed-project/static/media/shimaOhashi.e794fd3c.jpg",
     "static/media/tomoyoSugai.6f52a542.jpg": "/celtic-seed-project/static/media/tomoyoSugai.6f52a542.jpg",
@@ -24,6 +25,6 @@
     "static/js/runtime-main.f5bcf6c8.js",
     "static/js/2.125a96e0.chunk.js",
     "static/css/main.d6a21975.chunk.css",
-    "static/js/main.05bfe2a4.chunk.js"
+    "static/js/main.dcf6af47.chunk.js"
   ]
 }
