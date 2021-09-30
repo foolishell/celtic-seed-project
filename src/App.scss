@@ -1,7 +1,49 @@
 @import "CustomBootstrap";
 
-.nav {
-  width: calc(100% / 7);
+a {
+  color: $secondary;
+}
+
+.px-nav {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+@include media-breakpoint-up(md) {
+  .px-nav {
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+}
+
+.w-nav {
+  width: 12vw;
+}
+@include media-breakpoint-up(md) {
+  .w-offset-nav {
+    width: 76vw;
+  }
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+}
+.z-index-0 {
+  z-index: 0;
+}
+
+.h-top-image {
+  height: calc(100vw * 0.5225);
+}
+
+@include media-breakpoint-up(md) {
+  .visible-md {
+    visibility: visible !important;
+  }
+}
+
+#navigation {
+  width: 12vw;
+  z-index: 10000;
   a {
     color: $dark;
   }
