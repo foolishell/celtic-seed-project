@@ -1,30 +1,37 @@
 {
   "files": {
-    "main.css": "/celtic-seed-project/static/css/main.d6a21975.chunk.css",
-    "main.js": "/celtic-seed-project/static/js/main.dcf6af47.chunk.js",
-    "main.js.map": "/celtic-seed-project/static/js/main.dcf6af47.chunk.js.map",
+    "main.css": "/celtic-seed-project/static/css/main.8ed32dab.chunk.css",
+    "main.js": "/celtic-seed-project/static/js/main.78a7ec73.chunk.js",
+    "main.js.map": "/celtic-seed-project/static/js/main.78a7ec73.chunk.js.map",
     "runtime-main.js": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js",
     "runtime-main.js.map": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js.map",
-    "static/js/2.125a96e0.chunk.js": "/celtic-seed-project/static/js/2.125a96e0.chunk.js",
-    "static/js/2.125a96e0.chunk.js.map": "/celtic-seed-project/static/js/2.125a96e0.chunk.js.map",
+    "static/js/2.13a1956d.chunk.js": "/celtic-seed-project/static/js/2.13a1956d.chunk.js",
+    "static/js/2.13a1956d.chunk.js.map": "/celtic-seed-project/static/js/2.13a1956d.chunk.js.map",
     "static/js/3.818dde8c.chunk.js": "/celtic-seed-project/static/js/3.818dde8c.chunk.js",
     "static/js/3.818dde8c.chunk.js.map": "/celtic-seed-project/static/js/3.818dde8c.chunk.js.map",
     "index.html": "/celtic-seed-project/index.html",
-    "static/css/main.d6a21975.chunk.css.map": "/celtic-seed-project/static/css/main.d6a21975.chunk.css.map",
-    "static/js/2.125a96e0.chunk.js.LICENSE.txt": "/celtic-seed-project/static/js/2.125a96e0.chunk.js.LICENSE.txt",
+    "static/css/main.8ed32dab.chunk.css.map": "/celtic-seed-project/static/css/main.8ed32dab.chunk.css.map",
+    "static/js/2.13a1956d.chunk.js.LICENSE.txt": "/celtic-seed-project/static/js/2.13a1956d.chunk.js.LICENSE.txt",
     "static/media/allyCaravan.a4b0237e.jpg": "/celtic-seed-project/static/media/allyCaravan.a4b0237e.jpg",
+    "static/media/beginnerOk.3b8132cf.jpg": "/celtic-seed-project/static/media/beginnerOk.3b8132cf.jpg",
+    "static/media/daiKomatsu.f4e6ad5e.jpg": "/celtic-seed-project/static/media/daiKomatsu.f4e6ad5e.jpg",
     "static/media/deDomhnaigh.ef723135.jpg": "/celtic-seed-project/static/media/deDomhnaigh.ef723135.jpg",
+    "static/media/embassy.c002749a.png": "/celtic-seed-project/static/media/embassy.c002749a.png",
+    "static/media/hiroshiJo.7c4387e6.jpg": "/celtic-seed-project/static/media/hiroshiJo.7c4387e6.jpg",
+    "static/media/kaiFukushima.68f0c567.jpg": "/celtic-seed-project/static/media/kaiFukushima.68f0c567.jpg",
     "static/media/mainLogo.376d0ba0.png": "/celtic-seed-project/static/media/mainLogo.376d0ba0.png",
+    "static/media/price.eadd1819.jpg": "/celtic-seed-project/static/media/price.eadd1819.jpg",
     "static/media/rikoMatsuoka.501a62eb.jpg": "/celtic-seed-project/static/media/rikoMatsuoka.501a62eb.jpg",
     "static/media/shimaOhashi.e794fd3c.jpg": "/celtic-seed-project/static/media/shimaOhashi.e794fd3c.jpg",
     "static/media/tomoyoSugai.6f52a542.jpg": "/celtic-seed-project/static/media/tomoyoSugai.6f52a542.jpg",
     "static/media/tradOn.c1981f7f.png": "/celtic-seed-project/static/media/tradOn.c1981f7f.png",
+    "static/media/yasukoTeramachi.59bd0b0f.jpg": "/celtic-seed-project/static/media/yasukoTeramachi.59bd0b0f.jpg",
     "static/media/yukiKojimaBand.a14571bd.jpg": "/celtic-seed-project/static/media/yukiKojimaBand.a14571bd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f5bcf6c8.js",
-    "static/js/2.125a96e0.chunk.js",
-    "static/css/main.d6a21975.chunk.css",
-    "static/js/main.dcf6af47.chunk.js"
+    "static/js/2.13a1956d.chunk.js",
+    "static/css/main.8ed32dab.chunk.css",
+    "static/js/main.78a7ec73.chunk.js"
   ]
 }
