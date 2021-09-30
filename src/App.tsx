@@ -135,7 +135,7 @@ const App = () => {
                       当日ご購入いただいてそのままご参加も可能です）
                       <br />
                       2.
-                      楽器中級者向けとアイリッシュダンス初心者向けのワークショップがあります
+                      楽器中級者向けとアイリッシュダンス初心者向けのワークショップがあります。
                       楽器とダンスに分かれワークショップを開催します。
                       そして、最後に楽器チームとダンスチーム、合同でアンサンブルを楽しみます。
                     </small>
@@ -167,7 +167,7 @@ const App = () => {
             className="px-nav py-5 bg-secondary bg-opacity-75 text-white"
           >
             <h1>Ticket</h1>
-            <Image src={priceImg} className="w-75 my-3" />
+            <Image src={priceImg} className="w-md-75 w-100 my-3" />
             <p>申し込みは準備中です。お待ちください♪</p>
           </Container>
           <Container
