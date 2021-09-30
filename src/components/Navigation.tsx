@@ -4,7 +4,7 @@ import mainLogoImg from "../image/mainLogo.png";
 const Navigation = () => {
   return (
     <Nav
-      className="fixed-top Navigation flex-column text-center"
+      className="fixed-top flex-column text-center d-none d-md-block h-100"
       id="navigation"
     >
       <div className="p-3">
