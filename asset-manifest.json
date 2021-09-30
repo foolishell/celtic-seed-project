@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/celtic-seed-project/static/css/main.8ed32dab.chunk.css",
-    "main.js": "/celtic-seed-project/static/js/main.78a7ec73.chunk.js",
-    "main.js.map": "/celtic-seed-project/static/js/main.78a7ec73.chunk.js.map",
+    "main.js": "/celtic-seed-project/static/js/main.3a68aff6.chunk.js",
+    "main.js.map": "/celtic-seed-project/static/js/main.3a68aff6.chunk.js.map",
     "runtime-main.js": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js",
     "runtime-main.js.map": "/celtic-seed-project/static/js/runtime-main.f5bcf6c8.js.map",
     "static/js/2.13a1956d.chunk.js": "/celtic-seed-project/static/js/2.13a1956d.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.f5bcf6c8.js",
     "static/js/2.13a1956d.chunk.js",
     "static/css/main.8ed32dab.chunk.css",
-    "static/js/main.78a7ec73.chunk.js"
+    "static/js/main.3a68aff6.chunk.js"
   ]
 }
