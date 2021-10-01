@@ -16,17 +16,17 @@ const Navigation = () => {
       <Nav.Link className="" href="#about">
         About
       </Nav.Link>
-      <Nav.Link className="" href="#schedule">
-        Schedule
+      <Nav.Link className="" href="#events">
+        Events
       </Nav.Link>
-      <Nav.Link className="" href="#ticket">
-        Ticket
+      <Nav.Link className="" href="#tickets">
+        Tickets
       </Nav.Link>
-      <Nav.Link className="" href="#artist">
-        Artist
+      <Nav.Link className="" href="#artists">
+        Artists
       </Nav.Link>
-      <Nav.Link className="" href="#sponsor">
-        Sponsor
+      <Nav.Link className="" href="#supports">
+        Supports
       </Nav.Link>
     </Nav>
   );

@@ -1,29 +1,29 @@
 import "./App.scss";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col, Image, Button, Card } from "react-bootstrap";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
 import { ScrollSpy } from "bootstrap";
 import mainLogoImg from "./image/mainLogo.png";
 import affImg from "./image/aff.png";
-import concertImg from "./image/concert.jpeg";
+import concertImg from "./image/concert.jpg";
 import beginnerOkImg from "./image/beginnerOk.jpg";
 import priceImg from "./image/price.jpg";
-import tomoyoSugaiImg from "./image/artist/tomoyoSugai.jpg";
-import komatsuDaiImg from "./image/artist/daiKomatsu.jpg";
-import yasukoTeramachiImg from "./image/artist/yasukoTeramachi.jpg";
-import hiroshiJoImg from "./image/artist/hiroshiJo.jpg";
-import kaiFukushimaImg from "./image/artist/kaiFukushima.jpg";
-import yukiKojimaBandImg from "./image/artist/yukiKojimaBand.jpg";
-import sCeltsImg from "./image/artist/scelts.jpg";
-import allyCaravanImg from "./image/artist/allyCaravan.jpg";
-import deDonhnaighImg from "./image/artist/deDomhnaigh.jpg";
-import shimaOhashiImg from "./image/artist/shimaOhashi.jpg";
-import rikoMatsuokaImg from "./image/artist/rikoMatsuoka.jpg";
-import embassyImg from "./image/artist/embassy.png";
-import odeIncImg from "./image/artist/logo192.png";
-import celtNoFueImg from "./image/artist/logo192.png";
-import tradOnImg from "./image/sponsor/tradOn.png";
+import tomoyoSugaiImg from "./image/artists/tomoyoSugai.jpg";
+import komatsuDaiImg from "./image/artists/daiKomatsu.jpg";
+import yasukoTeramachiImg from "./image/artists/yasukoTeramachi.jpg";
+import hiroshiJoImg from "./image/artists/hiroshiJo.jpg";
+import kaiFukushimaImg from "./image/artists/kaiFukushima.jpg";
+import yukiKojimaBandImg from "./image/artists/yukiKojimaBand.jpg";
+import sCeltsImg from "./image/artists/scelts.jpg";
+import allyCaravanImg from "./image/artists/allyCaravan.jpg";
+import deDonhnaighImg from "./image/artists/deDomhnaigh.jpg";
+import shimaOhashiImg from "./image/artists/shimaOhashi.jpg";
+import rikoMatsuokaImg from "./image/artists/rikoMatsuoka.jpg";
+import embassyImg from "./image/supports/embassy.png";
+import odeIncImg from "./image/supports/ode.jpg";
+import celtNoFueImg from "./image/supports/celtNoFue.png";
+import tradOnImg from "./image/supports/tradOn.png";
 
 const App = () => {
   useEffect(() => {
@@ -38,7 +38,7 @@ const App = () => {
         <Image
           src={concertImg}
           fluid
-          className="fixed-top opacity-75 p-0 z-index-0 w-100"
+          className="fixed-top opacity-50 p-0 z-index-0 w-100"
         />
         <div
           className="text-center position-relative p-0"
@@ -81,7 +81,7 @@ const App = () => {
                 xs={12}
                 className="shadow-sm rounded p-3 bg-white text-secondary"
               >
-                <p className="text-bold text-dark">🌱　種をまく</p>
+                <p className="text-bold text-dark">🌱　種をまく　　</p>
                 <small>
                   まだケルト音楽が根付いていない地域で、コンサートやワークショップなどを実施し、興味を持つ人を増やしたい
                 </small>
@@ -90,7 +90,7 @@ const App = () => {
                 xs={12}
                 className="shadow-sm rounded p-3 bg-white text-secondary"
               >
-                <p className="text-bold text-dark">☘️　種を育てる</p>
+                <p className="text-bold text-dark">☘️　種を育てる　　</p>
                 <small>
                   若手のケルト音楽奏者、ダンサーなど、その分野においてプロを目指す方の活躍の場を作りたい
                 </small>
@@ -103,18 +103,14 @@ const App = () => {
             </p>
             <p>Koji</p>
           </Container>
-          <Container fluid id="schedule" className="px-nav py-5 bg-white">
-            <h1>Schedule</h1>
+          <Container fluid id="events" className="px-nav py-5 bg-white">
+            <h1>Events</h1>
             <ul className="timeline text-start">
               <li>
                 <h6>
-                  <a
-                    target="_blank"
-                    href="https://www.totoprayogo.com/#"
-                    rel="noreferrer"
-                  >
+                  <p className="text-secondary">
                     2021年11月4日 15:00-18:00 プレイベント
-                  </a>
+                  </p>
                 </h6>
                 <small>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -125,10 +121,12 @@ const App = () => {
               </li>
               <li>
                 <h6>
-                  <a href="#">2021年12月19日 14:00-16:00 ワークショップ</a>
+                  <p className="text-secondary">
+                    2021年12月19日 14:00-16:00 ワークショップ
+                  </p>
                 </h6>
                 <Row>
-                  <Col xs={10}>
+                  <Col xs={12} md={10}>
                     <small>
                       1. ティンホイッスル奏者とフィドル奏者を講師に迎えた、
                       初心者向けワークショップがあります。（ティンホイッスルは会場で楽器も販売していますので、
@@ -140,14 +138,19 @@ const App = () => {
                       そして、最後に楽器チームとダンスチーム、合同でアンサンブルを楽しみます。
                     </small>
                   </Col>
-                  <Col xs={2}>
-                    <Image src={beginnerOkImg} className="w-100" />
+                  <Col md={2}>
+                    <Image
+                      src={beginnerOkImg}
+                      className="w-100 d-none d-md-inline"
+                    />
                   </Col>
                 </Row>
               </li>
               <li>
                 <h6>
-                  <a href="#">2021年12月19日 17:00-19:00 コンサート</a>
+                  <p className="text-secondary">
+                    2021年12月19日 17:00-19:00 コンサート
+                  </p>
                 </h6>
                 <small>
                   1.
@@ -160,22 +163,53 @@ const App = () => {
                 </small>
               </li>
             </ul>
+            <p>
+              <a
+                className="text-primary"
+                data-bs-toggle="collapse"
+                href="#collapseVirus"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseVirus"
+              >
+                コロナウイルスに関するお願い
+              </a>
+            </p>
+            <div className="collapse" id="collapseVirus">
+              <Card className="card-body text-start">
+                <small>
+                  ・発熱や風邪の様な症状がある場合、体調のすぐれない場合は、入館をご遠慮くださいます様にお願い致します。
+                  <br />
+                  ・マスクを着用していただき、咳エチケットへのご協力をお願い致します。
+                  <br />
+                  ・こまめな手洗いや手指の消毒をお願い致します。
+                  <br />
+                  点他のお客様との感覚を開けていただき（2mほど）、各施設での長時間の滞在は極力お控えくださいます様にお願い致します。
+                  <br />
+                  ・飛沫予防のため、対面での会話は極力お控えくださいますようお願い致します。
+                  <br />
+                  ・施設や催事の状況によって、込み合わない様、入場の制限等を行う場合がございます。
+                  <br />
+                  ご協力をお願い致します。
+                </small>
+              </Card>
+            </div>
           </Container>
           <Container
             fluid
-            id="ticket"
+            id="tickets"
             className="px-nav py-5 bg-secondary bg-opacity-75 text-white"
           >
-            <h1>Ticket</h1>
+            <h1>Tickets</h1>
             <Image src={priceImg} className="w-md-75 w-100 my-3" />
             <p>申し込みは準備中です。お待ちください♪</p>
           </Container>
           <Container
-            id="artist"
+            id="artists"
             className="d-grid gap-5 px-nav py-5 bg-white"
             fluid
           >
-            <h1>Artist</h1>
+            <h1>Artists</h1>
             <Row>
               <h5>音楽ワークショップ</h5>
               <Col xs="6" className="text-center">
@@ -272,7 +306,7 @@ const App = () => {
                   thumbnail
                 />
                 <br />
-                <small>De Domhnaigh</small>
+                <small>Dé Domhnaigh</small>
               </Col>
               <Col xs="4" className="text-center">
                 <Image
@@ -299,8 +333,8 @@ const App = () => {
               チャレンジ枠として、演奏したい方も募集しています。（参加費：1000円）
             </p>
           </Container>
-          <Container id="sponsor" fluid className="px-nav py-5 bg-white">
-            <h1>Sponsor</h1>
+          <Container id="supports" fluid className="px-nav py-5 bg-white">
+            <h1>Supports</h1>
             <Row>
               <Col xs="3" className="text-center">
                 <Image src={embassyImg} className="w-50" rounded thumbnail />
