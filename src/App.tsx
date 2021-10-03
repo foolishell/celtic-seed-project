@@ -24,6 +24,7 @@ import embassyImg from "./image/supports/embassy.png";
 import odeIncImg from "./image/supports/ode.jpg";
 import celtNoFueImg from "./image/supports/celtNoFue.png";
 import tradOnImg from "./image/supports/tradOn.png";
+import { Artist, Support } from "./components/ArtistAndSupport";
 
 const App = () => {
   useEffect(() => {
@@ -109,14 +110,17 @@ const App = () => {
               <li>
                 <h6>
                   <p className="text-secondary">
-                    2021年11月4日 15:00-18:00 プレイベント
+                    2021年11月4日 15:00-17:00 プレイベント
                   </p>
                 </h6>
                 <small>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque scelerisque diam non nisi semper, et elementum lorem
-                  ornare. Maecenas placerat facilisis mollis. Duis sagittis
-                  ligula in sodales vehicula....
+                  ケルト音楽の生演奏とダンスWSをお届けします。<br/>
+                  ■演奏：小嶋佑樹(Bagpipe&TinWhistle&Accordion), 福島開(Fiddle), 大橋志麻(IrishHarp)<br />
+                  ■ダンスWS：寺町靖子, 城拓<br/>
+                  ■料金：1000円＋お店に1オーダー以上のご注文<br/>
+                  ■場所：Storyhouse Cafe & Bar（長野県松本市大手４丁目３−１９）<br/>
+                  ご予約は<a href="mailto:kojikojimoheji@gmail.com">kojikojimoheji@gmail.com</a>まで<br/>
+                  ※ 予約は必須ではありませんが、満員の場合は予約の方を優先とさせていただきます。
                 </small>
               </li>
               <li>
@@ -212,122 +216,67 @@ const App = () => {
             <h1>Artists</h1>
             <Row>
               <h5>音楽ワークショップ</h5>
-              <Col xs="6" className="text-center">
-                <Image
-                  src={tomoyoSugaiImg}
-                  className="w-50"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>須貝知世</small>
-              </Col>
-              <Col xs="6" className="text-center">
-                <Image
-                  src={komatsuDaiImg}
-                  className="w-50"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>小松大</small>
-              </Col>
+              <Artist 
+                imgSrc={tomoyoSugaiImg}
+                homepage="http://www.tomoyosugai.com/thousands-of-flowers/"
+                name="須貝知世"
+                size={6} />
+              <Artist
+                imgSrc={komatsuDaiImg}
+                homepage="https://daikomatsu.com/"
+                name="小松大"
+                size={6} />
             </Row>
             <Row>
               <h5>ダンスワークショップ</h5>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={yasukoTeramachiImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>寺町靖子</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={hiroshiJoImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>城拓</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={kaiFukushimaImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>福島開（Music）</small>
-              </Col>
+              <Artist
+                imgSrc={yasukoTeramachiImg}
+                homepage="#"
+                name="寺町靖子"
+                size={4} />
+              <Artist
+                imgSrc={hiroshiJoImg}
+                homepage="https://note.com/johiroshi/"
+                name="城拓"
+                size={4} />
+              <Artist
+                imgSrc={kaiFukushimaImg}
+                homepage="#"
+                name="福島開（Music）"
+                size={4} />
             </Row>
             <Row>
               <h5>コンサート</h5>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={yukiKojimaBandImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>Yuki Kojima Band</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={sCeltsImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>S-Celts</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={allyCaravanImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>Ally Caravan</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={deDonhnaighImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>Dé Domhnaigh</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={shimaOhashiImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>大橋志麻</small>
-              </Col>
-              <Col xs="4" className="text-center">
-                <Image
-                  src={rikoMatsuokaImg}
-                  className="w-75"
-                  roundedCircle
-                  thumbnail
-                />
-                <br />
-                <small>松岡莉子</small>
-              </Col>
+              <Artist
+                imgSrc={yukiKojimaBandImg}
+                homepage="https://kojikojimoheji.com/wp01/2019/09/18/%E3%83%95%E3%83%AB%E6%BC%94%E5%A5%8F%E5%8B%95%E7%94%BB%EF%BC%81%E3%80%8Cfestival-de-ortigueira-2019-yuki-kojima-band%E3%80%8D%EF%BC%81%EF%BC%81/"
+                name="Yuki Kojima Band"
+                size={4} />
+              <Artist
+                imgSrc={sCeltsImg}
+                homepage="https://shindai-guide.com/circle/scelts/"
+                name="S-Celts"
+                size={4} />
+              <Artist
+                imgSrc={allyCaravanImg}
+                homepage="https://allys30.wixsite.com/ally"
+                name="Ally Caravan"
+                size={4} />
+              <Artist
+                imgSrc={deDonhnaighImg}
+                homepage="https://twitter.com/ddomhnaigh"
+                name="Dé Domhnaigh"
+                size={4} />
+              <Artist
+                imgSrc={shimaOhashiImg}
+                homepage="https://shimaohashi.com/"
+                name="大橋志麻"
+                size={4} />
+              <Artist
+                imgSrc={rikoMatsuokaImg}
+                homepage="https://www.imliving.com/harp/profile.html"
+                name="松岡莉子"
+                size={4} />
             </Row>
             <p className="text-secondary">
               チャレンジ枠として、演奏したい方も募集しています。（参加費：1000円）
@@ -336,27 +285,31 @@ const App = () => {
           <Container id="supports" fluid className="px-nav py-5 bg-white">
             <h1>Supports</h1>
             <Row>
-              <Col xs="3" className="text-center">
-                <Image src={embassyImg} className="w-50" rounded thumbnail />
-                <p>アイルランド大使館</p>
-              </Col>
-              <Col xs="3" className="text-center">
-                <Image src={odeIncImg} className="w-50" rounded thumbnail />
-                <p>Ode.inc</p>
-              </Col>
-              <Col xs="3" className="text-center">
-                <Image src={celtNoFueImg} className="w-50" rounded thumbnail />
-                <p>ケルトの笛屋さん</p>
-              </Col>
-              <Col xs="3" className="text-center">
-                <Image src={tradOnImg} className="w-50" rounded thumbnail />
-                <p>Trad On</p>
-              </Col>
+              <Support
+                imgSrc={embassyImg}
+                homepage="https://www.dfa.ie/ja/irish-embassy/japan/"
+                name="アイルランド大使館"
+                size={3} />
+              <Support
+                imgSrc={odeIncImg}
+                homepage="https://odeinc.jp/"
+                name="Ode.inc"
+                size={3} />
+              <Support
+                imgSrc={celtNoFueImg}
+                homepage="https://celtnofue.com/"
+                name="ケルトの笛屋さん"
+                size={3} />
+              <Support
+                imgSrc={tradOnImg}
+                homepage="https://www.trad-on.com"
+                name="Trad On"
+                size={3} />
             </Row>
           </Container>
+          <Footer />
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
