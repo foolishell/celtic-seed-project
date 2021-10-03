@@ -2,7 +2,7 @@
   "name": "celtic-seed-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://foolishell.github.io/celtic-seed-project",
+  "homepage": "http://www.celtic-seed.com",
   "dependencies": {
     "@popperjs/core": "^2.9.3",
     "@testing-library/jest-dom": "^5.11.4",
@@ -36,7 +36,7 @@
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext tsx --fix",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build && echo 'www.celtic-seed.com > ./build/CNAME'",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
