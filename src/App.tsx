@@ -114,13 +114,24 @@ const App = () => {
                   </p>
                 </h6>
                 <small>
-                  ケルト音楽の生演奏とダンスWSをお届けします。<br/>
-                  ■演奏：小嶋佑樹(Bagpipe&TinWhistle&Accordion), 福島開(Fiddle), 大橋志麻(IrishHarp)<br />
-                  ■ダンスWS：寺町靖子, 城拓<br/>
-                  ■料金：1000円＋お店に1オーダー以上のご注文<br/>
-                  ■場所：Storyhouse Cafe & Bar（長野県松本市大手４丁目３−１９）<br/>
-                  ご予約は<a href="mailto:kojikojimoheji@gmail.com">kojikojimoheji@gmail.com</a>まで<br/>
-                  ※ 予約は必須ではありませんが、満員の場合は予約の方を優先とさせていただきます。
+                  ケルト音楽の生演奏とダンスWSをお届けします。
+                  <br />
+                  ■演奏：小嶋佑樹(Bagpipe&TinWhistle&Accordion), 福島開(Fiddle),
+                  大橋志麻(IrishHarp)
+                  <br />
+                  ■ダンスWS：寺町靖子, 城拓
+                  <br />
+                  ■料金：1000円＋お店に1オーダー以上のご注文
+                  <br />
+                  ■場所：Storyhouse Cafe & Bar（長野県松本市大手４丁目３−１９）
+                  <br />
+                  ご予約は
+                  <a href="mailto:kojikojimoheji@gmail.com">
+                    kojikojimoheji@gmail.com
+                  </a>
+                  まで
+                  <br />※
+                  予約は必須ではありませんが、満員の場合は予約の方を優先とさせていただきます。
                 </small>
               </li>
               <li>
@@ -216,16 +227,18 @@ const App = () => {
             <h1>Artists</h1>
             <Row>
               <h5>音楽ワークショップ</h5>
-              <Artist 
+              <Artist
                 imgSrc={tomoyoSugaiImg}
                 homepage="http://www.tomoyosugai.com/thousands-of-flowers/"
                 name="須貝知世"
-                size={6} />
+                size={6}
+              />
               <Artist
                 imgSrc={komatsuDaiImg}
                 homepage="https://daikomatsu.com/"
                 name="小松大"
-                size={6} />
+                size={6}
+              />
             </Row>
             <Row>
               <h5>ダンスワークショップ</h5>
@@ -233,17 +246,20 @@ const App = () => {
                 imgSrc={yasukoTeramachiImg}
                 homepage="#"
                 name="寺町靖子"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={hiroshiJoImg}
                 homepage="https://note.com/johiroshi/"
                 name="城拓"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={kaiFukushimaImg}
                 homepage="#"
                 name="福島開（Music）"
-                size={4} />
+                size={4}
+              />
             </Row>
             <Row>
               <h5>コンサート</h5>
@@ -251,32 +267,38 @@ const App = () => {
                 imgSrc={yukiKojimaBandImg}
                 homepage="https://kojikojimoheji.com/wp01/2019/09/18/%E3%83%95%E3%83%AB%E6%BC%94%E5%A5%8F%E5%8B%95%E7%94%BB%EF%BC%81%E3%80%8Cfestival-de-ortigueira-2019-yuki-kojima-band%E3%80%8D%EF%BC%81%EF%BC%81/"
                 name="Yuki Kojima Band"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={sCeltsImg}
                 homepage="https://shindai-guide.com/circle/scelts/"
                 name="S-Celts"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={allyCaravanImg}
                 homepage="https://allys30.wixsite.com/ally"
                 name="Ally Caravan"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={deDonhnaighImg}
                 homepage="https://twitter.com/ddomhnaigh"
                 name="Dé Domhnaigh"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={shimaOhashiImg}
                 homepage="https://shimaohashi.com/"
                 name="大橋志麻"
-                size={4} />
+                size={4}
+              />
               <Artist
                 imgSrc={rikoMatsuokaImg}
                 homepage="https://www.imliving.com/harp/profile.html"
                 name="松岡莉子"
-                size={4} />
+                size={4}
+              />
             </Row>
             <p className="text-secondary">
               チャレンジ枠として、演奏したい方も募集しています。（参加費：1000円）
@@ -289,22 +311,26 @@ const App = () => {
                 imgSrc={embassyImg}
                 homepage="https://www.dfa.ie/ja/irish-embassy/japan/"
                 name="アイルランド大使館"
-                size={3} />
+                size={3}
+              />
               <Support
                 imgSrc={odeIncImg}
                 homepage="https://odeinc.jp/"
                 name="Ode.inc"
-                size={3} />
+                size={3}
+              />
               <Support
                 imgSrc={celtNoFueImg}
                 homepage="https://celtnofue.com/"
                 name="ケルトの笛屋さん"
-                size={3} />
+                size={3}
+              />
               <Support
                 imgSrc={tradOnImg}
                 homepage="https://www.trad-on.com"
                 name="Trad On"
-                size={3} />
+                size={3}
+              />
             </Row>
           </Container>
           <Footer />
