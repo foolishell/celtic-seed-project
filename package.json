@@ -36,7 +36,7 @@
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
     "lint": "eslint . --ext tsx --fix",
-    "predeploy": "yarn build && echo 'www.celtic-seed.com > ./build/CNAME'",
+    "predeploy": "yarn build && echo 'celtic-seed.com > ./build/CNAME'",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

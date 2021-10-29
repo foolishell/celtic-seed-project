@@ -63,7 +63,7 @@ const App = () => {
                 <h5>会場：茅野市民館</h5>
               </div>
             </div>
-            <div className="w-nav p-3">
+            <div className="w-nav p-3 invisible visible-md">
               <Image src={affImg} className="w-100" />
             </div>
           </Container>
@@ -72,6 +72,9 @@ const App = () => {
             id="about"
             className="px-nav bg-white py-5 bg-opacity-75"
           >
+            <div className="d-block d-md-none w-25 mx-auto">
+              <Image src={mainLogoImg} className="rounded-circle w-25" />
+            </div>
             <h1>What's Celtic Seed Project</h1>
             <p>
               Celtic Seed
@@ -98,7 +101,7 @@ const App = () => {
               </Col>
             </Row>
             <p className="mt-3">
-              2021年12月17日（土）に記念すべき１回目が開催されます。
+              2021年12月19日（土）に記念すべき１回目が開催されます。
               ケルト音楽に興味がある方、お気軽にお越しいただけたら嬉しいです。
               お越しをお待ちしております。
             </p>
@@ -126,8 +129,8 @@ const App = () => {
                   ■場所：Storyhouse Cafe & Bar（長野県松本市大手４丁目３−１９）
                   <br />
                   ご予約は
-                  <a href="mailto:kojikojimoheji@gmail.com">
-                    kojikojimoheji@gmail.com
+                  <a href="mailto:celticseedproject@gmail.com">
+                    celticseedproject@gmail.com
                   </a>
                   まで
                   <br />※
@@ -199,7 +202,7 @@ const App = () => {
                   <br />
                   ・こまめな手洗いや手指の消毒をお願い致します。
                   <br />
-                  点他のお客様との感覚を開けていただき（2mほど）、各施設での長時間の滞在は極力お控えくださいます様にお願い致します。
+                  ・他のお客様との感覚を開けていただき（2mほど）、各施設での長時間の滞在は極力お控えくださいます様にお願い致します。
                   <br />
                   ・飛沫予防のため、対面での会話は極力お控えくださいますようお願い致します。
                   <br />
@@ -216,8 +219,52 @@ const App = () => {
             className="px-nav py-5 bg-secondary bg-opacity-75 text-white"
           >
             <h1>Tickets</h1>
-            <Image src={priceImg} className="w-md-75 w-100 my-3" />
-            <p>申し込みは準備中です。お待ちください♪</p>
+            <Image
+              src={priceImg}
+              className="w-lg-75 w-100 my-3 shadow-sm rounded"
+            />
+
+            <div>
+              <Button
+                className="shadow-sm"
+                href="https://celtic-seed-2021-winter.peatix.com/view"
+              >
+                申し込みページへ
+              </Button>
+              <div className="mt-3">
+                <p>
+                  <a
+                    className="text-white pt-3"
+                    data-bs-toggle="collapse"
+                    href="#collapseTicket"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseTicket"
+                  >
+                    チケットに関して
+                  </a>
+                </p>
+                <div className="collapse" id="collapseTicket">
+                  <Card className="card-body text-start text-black">
+                    <small>
+                      ・Peatix前売りチケット販売期間は2021/10/23/(土)〜12/12/(日)です。
+                      <br />
+                      ・ワークショップに参加されない方は、コンサートの60分前(16:00)よりご入場いただけます。
+                      <br />
+                      ・三密を避けるため、お時間に余裕をもってお越しくださいますようご協力をお願いします。
+                      <br />
+                      ・未就学児は無料です。
+                      <br />
+                      ・ご不明な点がありましたら
+                      <a href="mailto:celticseedproject@gmail.com">
+                        celticseedproject@gmail.com
+                      </a>
+                      までお問い合わせください。
+                    </small>
+                  </Card>
+                </div>
+              </div>
+            </div>
           </Container>
           <Container
             id="artists"

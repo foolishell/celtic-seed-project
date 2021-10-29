@@ -20,7 +20,7 @@ a {
 }
 @include media-breakpoint-up(md) {
   .w-offset-nav {
-    width: 76vw;
+    width: 78vw;
   }
 }
 
@@ -33,6 +33,12 @@ a {
 
 @include media-breakpoint-up(md) {
   .w-md-75 {
+    width: 75% !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .w-lg-75 {
     width: 75% !important;
   }
 }
