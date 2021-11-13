@@ -101,11 +101,16 @@ const App = () => {
               </Col>
             </Row>
             <p className="mt-3">
-              2021年12月19日（土）に記念すべき１回目が開催されます。
+              2021年12月19日（日）に記念すべき１回目が開催されます。
               ケルト音楽に興味がある方、お気軽にお越しいただけたら嬉しいです。
               お越しをお待ちしております。
             </p>
-            <p>Koji</p>
+            <p>小嶋祐樹</p>
+            <small>
+              <a className="text-primary" href="https://wp.me/pckG1b-Zb">
+                小嶋のホームページにも主催者としての想いを公開しました。
+              </a>
+            </small>
           </Container>
           <Container fluid id="events" className="px-nav py-5 bg-white">
             <h1>Events</h1>
@@ -357,7 +362,7 @@ const App = () => {
               <Support
                 imgSrc={embassyImg}
                 homepage="https://www.dfa.ie/ja/irish-embassy/japan/"
-                name="アイルランド大使館"
+                name="駐日アイルランド大使館"
                 size={3}
               />
               <Support
