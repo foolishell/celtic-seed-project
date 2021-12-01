@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5854e53f.chunk.css",
-    "main.js": "/static/js/main.661c073f.chunk.js",
-    "main.js.map": "/static/js/main.661c073f.chunk.js.map",
+    "main.js": "/static/js/main.5e76172f.chunk.js",
+    "main.js.map": "/static/js/main.5e76172f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ac6c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ac6c9.js.map",
     "static/js/2.8e3b9582.chunk.js": "/static/js/2.8e3b9582.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/shimaOhashi.e794fd3c.jpg": "/static/media/shimaOhashi.e794fd3c.jpg",
     "static/media/tomoyoSugai.6f52a542.jpg": "/static/media/tomoyoSugai.6f52a542.jpg",
     "static/media/tradOn.c1981f7f.png": "/static/media/tradOn.c1981f7f.png",
+    "static/media/twitter.f963dcac.png": "/static/media/twitter.f963dcac.png",
     "static/media/yasukoTeramachi.59bd0b0f.jpg": "/static/media/yasukoTeramachi.59bd0b0f.jpg",
     "static/media/yukiKojimaBand.a14571bd.jpg": "/static/media/yukiKojimaBand.a14571bd.jpg"
   },
@@ -34,6 +35,6 @@
     "static/js/runtime-main.ab5ac6c9.js",
     "static/js/2.8e3b9582.chunk.js",
     "static/css/main.5854e53f.chunk.css",
-    "static/js/main.661c073f.chunk.js"
+    "static/js/main.5e76172f.chunk.js"
   ]
 }
