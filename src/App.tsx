@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import { ScrollSpy } from "bootstrap";
 import mainLogoImg from "./image/mainLogo.png";
 import affImg from "./image/aff.png";
+import twitterImg from "./image/twitter.png";
+import facebookImg from "./image/facebook.png";
 import concertImg from "./image/concert.jpg";
 import beginnerOkImg from "./image/beginnerOk.jpg";
 import priceImg from "./image/price.jpg";
@@ -61,6 +63,17 @@ const App = () => {
                 </h2>
                 <h5>12月19日(日)</h5>
                 <h5>会場：茅野市民館</h5>
+                <br />
+                <small>
+                  最新情報はこちらから
+                  <br />
+                  <a href="https://twitter.com/celtic_seed">
+                    <Image src={twitterImg} height={18} />
+                  </a>{" "}
+                  <a href="https://www.facebook.com/Celtic-Seed-Project-100344089118838/">
+                    <Image src={facebookImg} height={18} />
+                  </a>
+                </small>
               </div>
             </div>
             <div className="w-nav p-3 invisible visible-md">
@@ -160,6 +173,120 @@ const App = () => {
                       楽器とダンスに分かれワークショップを開催します。
                       そして、最後に楽器チームとダンスチーム、合同でアンサンブルを楽しみます。
                     </small>
+                    <div className="mt-1">
+                      <small>
+                        <a
+                          className="text-primary"
+                          data-bs-toggle="collapse"
+                          href="#musicWorkshop"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="musicWorkshop"
+                        >
+                          音楽ワークショップの詳細
+                        </a>
+                      </small>
+                      <div className="collapse" id="musicWorkshop">
+                        <Card className="card-body text-start">
+                          <div>
+                            <small>
+                              <span className="fw-bold">タイムテーブル</span>
+                              <br />
+                              13:00〜13:15　オープニング挨拶・振り分け・移動
+                              <br />
+                              13:15〜13:55　初級・中級の座学・歴史・リズムを紹介しつつミニコンサート、楽器紹介
+                              <br />
+                              13:55〜14:35　ワークショップ１（初級）
+                              <br />
+                              14:35〜14:50　休憩
+                              <br />
+                              14:50〜15:30　ワークショップ２（中級）
+                              <br />
+                              15:30〜15:45　音楽とダンスのセッション
+                              <br />
+                              15:45〜16:00　締めの挨拶
+                              <br />
+                            </small>
+                          </div>
+                          <div>
+                            <small>
+                              ◉楽器制限 |
+                              どんな楽器でもO.K（ただし、下の注意事項をご確認ください）
+                              <br />
+                              ◉人数 |初級・中級合わせて定員 50名
+                              <br />
+                              <span className="fw-bold">＜注意事項＞</span>
+                              <br />
+                              ※１講師はフィドルとティンホイッスルなどアイルランドの伝統楽器で教えます。
+                              <br />
+                              ※２他の楽器も参加可能ですが、フィドルやティンホイッスルなど、アイリッシュの音階が演奏できる楽器が推奨です。
+                              <br />
+                              ※３ティンホイッスルとリコーダーの違い
+                              <br />
+                              - 運指が違う
+                              <br />
+                              - キーが違う
+                              <br />
+                              -
+                              なので、ワークショップ参加にはティンホイッスルが推奨です。
+                              <br />
+                            </small>
+                          </div>
+                        </Card>
+                      </div>
+                    </div>
+                    <div className="mt-1">
+                      <small>
+                        <a
+                          className="text-primary"
+                          data-bs-toggle="collapse"
+                          href="#danceWorkshop"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="danceWorkshop"
+                        >
+                          ダンスワークショップの詳細
+                        </a>
+                      </small>
+                      <div className="collapse" id="danceWorkshop">
+                        <Card className="card-body text-start">
+                          <div>
+                            <small>
+                              <span className="fw-bold">タイムテーブル</span>
+                              <br />
+                              13:00〜13:15　オープニング挨拶・振り分け・移動
+                              <br />
+                              13:15〜14:00　アイルランドの歴史とダンスについて（座学）・ストレッチとウォームアップ
+                              <br />
+                              14:00〜14:50　Maggie Pickieワークショップ(前半)
+                              <br />
+                              14:50〜15:00　休憩
+                              <br />
+                              15:00〜15:30　Maggie Pickieワークショップ(後半)
+                              <br />
+                              15:30〜15:45　音楽とダンスのセッション
+                              <br />
+                              15:45〜16:00　締めの挨拶
+                              <br />
+                            </small>
+                          </div>
+                          <div>
+                            <small>
+                              ◉動きやすい服装でお越しください
+                              <br />
+                              ◉ローファーのような底の平たい革靴でお越しください
+                              <br />
+                              ◉動くと汗をかきます。飲み物、タオル、替えのマスクもご用意ください
+                              <br />
+                              ◉マスク（不織布）着用をお願いします
+                              <br />
+                              ◉人数 |定員 40名
+                              <br />
+                            </small>
+                          </div>
+                        </Card>
+                      </div>
+                    </div>
                   </Col>
                   <Col md={2}>
                     <Image
@@ -172,7 +299,7 @@ const App = () => {
               <li>
                 <h6>
                   <p className="text-secondary">
-                    2021年12月19日 17:00-20:00 コンサート
+                    2021年12月19日 17:00-20:00 コンサート（開場: 16:00）
                   </p>
                 </h6>
                 <small>
