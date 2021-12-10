@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5854e53f.chunk.css",
-    "main.js": "/static/js/main.5e76172f.chunk.js",
-    "main.js.map": "/static/js/main.5e76172f.chunk.js.map",
+    "main.css": "/static/css/main.3630ff39.chunk.css",
+    "main.js": "/static/js/main.9a0fb1a8.chunk.js",
+    "main.js.map": "/static/js/main.9a0fb1a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ac6c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ac6c9.js.map",
     "static/js/2.8e3b9582.chunk.js": "/static/js/2.8e3b9582.chunk.js",
@@ -10,21 +10,26 @@
     "static/js/3.1322439a.chunk.js": "/static/js/3.1322439a.chunk.js",
     "static/js/3.1322439a.chunk.js.map": "/static/js/3.1322439a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5854e53f.chunk.css.map": "/static/css/main.5854e53f.chunk.css.map",
+    "static/css/main.3630ff39.chunk.css.map": "/static/css/main.3630ff39.chunk.css.map",
     "static/js/2.8e3b9582.chunk.js.LICENSE.txt": "/static/js/2.8e3b9582.chunk.js.LICENSE.txt",
     "static/media/allyCaravan.a4b0237e.jpg": "/static/media/allyCaravan.a4b0237e.jpg",
     "static/media/beginnerOk.3b8132cf.jpg": "/static/media/beginnerOk.3b8132cf.jpg",
+    "static/media/britches.44a7d567.pdf": "/static/media/britches.44a7d567.pdf",
     "static/media/celtNoFue.e1c1c401.png": "/static/media/celtNoFue.e1c1c401.png",
     "static/media/concert.edc6ebec.jpg": "/static/media/concert.edc6ebec.jpg",
     "static/media/daiKomatsu.f4e6ad5e.jpg": "/static/media/daiKomatsu.f4e6ad5e.jpg",
     "static/media/deDomhnaigh.ef723135.jpg": "/static/media/deDomhnaigh.ef723135.jpg",
+    "static/media/downByTheSallyGarden.b6f8f96f.pdf": "/static/media/downByTheSallyGarden.b6f8f96f.pdf",
     "static/media/embassy.c002749a.png": "/static/media/embassy.c002749a.png",
+    "static/media/hagWithTheMoney.93dd57bd.pdf": "/static/media/hagWithTheMoney.93dd57bd.pdf",
     "static/media/hiroshiJo.7c4387e6.jpg": "/static/media/hiroshiJo.7c4387e6.jpg",
     "static/media/kaiFukushima.68f0c567.jpg": "/static/media/kaiFukushima.68f0c567.jpg",
+    "static/media/maggiePickies.3dfad15e.pdf": "/static/media/maggiePickies.3dfad15e.pdf",
     "static/media/mainLogo.376d0ba0.png": "/static/media/mainLogo.376d0ba0.png",
     "static/media/price.576b0269.jpg": "/static/media/price.576b0269.jpg",
     "static/media/rikoMatsuoka.501a62eb.jpg": "/static/media/rikoMatsuoka.501a62eb.jpg",
     "static/media/shimaOhashi.e794fd3c.jpg": "/static/media/shimaOhashi.e794fd3c.jpg",
+    "static/media/silverSpear.cf3710ab.pdf": "/static/media/silverSpear.cf3710ab.pdf",
     "static/media/tomoyoSugai.6f52a542.jpg": "/static/media/tomoyoSugai.6f52a542.jpg",
     "static/media/tradOn.c1981f7f.png": "/static/media/tradOn.c1981f7f.png",
     "static/media/twitter.f963dcac.png": "/static/media/twitter.f963dcac.png",
@@ -34,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.ab5ac6c9.js",
     "static/js/2.8e3b9582.chunk.js",
-    "static/css/main.5854e53f.chunk.css",
-    "static/js/main.5e76172f.chunk.js"
+    "static/css/main.3630ff39.chunk.css",
+    "static/js/main.9a0fb1a8.chunk.js"
   ]
 }
