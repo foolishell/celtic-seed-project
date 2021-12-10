@@ -18,10 +18,9 @@ a {
 .w-nav {
   width: 12vw;
 }
-@include media-breakpoint-up(md) {
-  .w-offset-nav {
-    width: 78vw;
-  }
+
+.w-offset-nav {
+  width: 76vw;
 }
 
 .text-stroke {
