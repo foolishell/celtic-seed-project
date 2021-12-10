@@ -27,6 +27,11 @@ import odeIncImg from "./image/supports/ode.jpg";
 import celtNoFueImg from "./image/supports/celtNoFue.png";
 import tradOnImg from "./image/supports/tradOn.png";
 import { Artist, Support } from "./components/ArtistAndSupport";
+import britchesPdf from "./image/pdf/britches.pdf";
+import downByTheSallyGardenPdf from "./image/pdf/downByTheSallyGarden.pdf";
+import hagWithTheMoneyPdf from "./image/pdf/hagWithTheMoney.pdf";
+import maggiePickiesPdf from "./image/pdf/maggiePickies.pdf";
+import silverSpearPdf from "./image/pdf/silverSpear.pdf";
 
 const App = () => {
   useEffect(() => {
@@ -232,6 +237,64 @@ const App = () => {
                               <br />
                             </small>
                           </div>
+                        </Card>
+                      </div>
+                    </div>
+                    <div className="mt-1">
+                      <small>
+                        <a
+                          className="text-primary"
+                          data-bs-toggle="collapse"
+                          href="#musicNote"
+                          role="button"
+                          aria-expanded="false"
+                          aria-controls="musicNote"
+                        >
+                          音楽ワークショップ楽譜
+                        </a>
+                      </small>
+                      <div className="collapse" id="musicNote">
+                        <Card className="card-body text-start">
+                          <small>
+                            <p className="fw-bold">初級・中級共通</p>
+                            <a
+                              href={maggiePickiesPdf}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <p>Maggie Pickies</p>
+                            </a>
+                            <p className="fw-bold">初級</p>
+                            <a
+                              href={britchesPdf}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <p>Britches</p>
+                            </a>
+                            <a
+                              href={downByTheSallyGardenPdf}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <p>Down By the Sally Garden</p>
+                            </a>
+                            <p className="fw-bold">中級</p>
+                            <a
+                              href={hagWithTheMoneyPdf}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <p>Hag with the Money</p>
+                            </a>
+                            <a
+                              href={silverSpearPdf}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              <p>Silver Spear</p>
+                            </a>
+                          </small>
                         </Card>
                       </div>
                     </div>
