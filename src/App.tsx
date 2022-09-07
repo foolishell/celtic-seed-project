@@ -9,10 +9,11 @@ import affImg from "./image/aff.png";
 import twitterImg from "./image/twitter.png";
 import facebookImg from "./image/facebook.png";
 import concertImg from "./image/concert.jpg";
+import bgImg from "./image/bg.png";
 import beginnerOkImg from "./image/beginnerOk.jpg";
 import priceImg from "./image/price.jpg";
 import tomoyoSugaiImg from "./image/artists/tomoyoSugai.jpg";
-import komatsuDaiImg from "./image/artists/daiKomatsu.jpg";
+import yukiKojima from "./image/artists/yukiKojima.png";
 import yasukoTeramachiImg from "./image/artists/yasukoTeramachi.jpg";
 import hiroshiJoImg from "./image/artists/hiroshiJo.jpg";
 import kaiFukushimaImg from "./image/artists/kaiFukushima.jpg";
@@ -26,6 +27,7 @@ import embassyImg from "./image/supports/embassy.png";
 import odeIncImg from "./image/supports/ode.jpg";
 import celtNoFueImg from "./image/supports/celtNoFue.png";
 import tradOnImg from "./image/supports/tradOn.png";
+import chooseWhichYouLikeImg from "./image/chooseWhichYouLike.jpg";
 import { Artist, Support } from "./components/ArtistAndSupport";
 import britchesPdf from "./image/pdf/britches.pdf";
 import downByTheSallyGardenPdf from "./image/pdf/downByTheSallyGarden.pdf";
@@ -64,10 +66,10 @@ const App = () => {
             <div className="w-offset-nav h-100 d-table">
               <div className="d-table-cell align-middle text-center text-bold text-white">
                 <h2 className="text-bold">
-                  ケルティックシードプロジェクト2021
+                  ケルティックシードプロジェクト2022 in 山梨
                 </h2>
-                <h5>12月19日(日)</h5>
-                <h5>会場：茅野市民館</h5>
+                <h5>11月19日(土)</h5>
+                <h5>会場：甲州市民文化会館</h5>
                 <br />
                 <small>
                   最新情報はこちらから
@@ -119,7 +121,7 @@ const App = () => {
               </Col>
             </Row>
             <p className="mt-3">
-              2021年12月19日（日）に記念すべき１回目が開催されます。
+              2022年11月19日（土）に記念すべき2回目が開催されます。
               ケルト音楽に興味がある方、お気軽にお越しいただけたら嬉しいです。
               お越しをお待ちしております。
             </p>
@@ -136,47 +138,21 @@ const App = () => {
               <li>
                 <h6>
                   <p className="text-secondary">
-                    2021年11月7日 15:00-17:00 プレイベント
-                  </p>
-                </h6>
-                <small>
-                  ケルト音楽の生演奏とダンスWSをお届けします。
-                  <br />
-                  ■演奏：小嶋佑樹(Bagpipe&TinWhistle&Accordion), 福島開(Fiddle),
-                  大橋志麻(IrishHarp)
-                  <br />
-                  ■ダンスWS：寺町靖子, 城拓
-                  <br />
-                  ■料金：1000円＋お店に1オーダー以上のご注文
-                  <br />
-                  ■場所：Storyhouse Cafe & Bar（長野県松本市大手４丁目３−１９）
-                  <br />
-                  ご予約は
-                  <a href="mailto:celticseedproject@gmail.com">
-                    celticseedproject@gmail.com
-                  </a>
-                  まで
-                  <br />※
-                  予約は必須ではありませんが、満員の場合は予約の方を優先とさせていただきます。
-                </small>
-              </li>
-              <li>
-                <h6>
-                  <p className="text-secondary">
-                    2021年12月19日 13:00-16:00 ワークショップ
+                    2022年11月19日 14:00-16:00 昼の部：ワークショップ
                   </p>
                 </h6>
                 <Row>
                   <Col xs={12} md={10}>
                     <small>
-                      1. ティンホイッスル奏者とフィドル奏者を講師に迎えた、
+                      1.
+                      音楽ワークショップ：ティンホイッスル/アコーディオン奏者の小嶋祐樹を講師に迎えた、
                       初心者向けワークショップがあります。（ティンホイッスルは会場で楽器も販売していますので、
                       当日ご購入いただいてそのままご参加も可能です）
                       <br />
                       2.
-                      楽器中級者向けとアイリッシュダンス初心者向けのワークショップがあります。
-                      楽器とダンスに分かれワークショップを開催します。
-                      そして、最後に楽器チームとダンスチーム、合同でアンサンブルを楽しみます。
+                      ダンスワークショップ：アイリッシュダンス初心者向けのワークショップを行います。ソロダンスではなく、複数の人数で踊るグループダンスを取り上げる予定です。
+                      <br />
+                      そして、最後には音楽チームとダンスチーム、合同でアンサンブルを楽しみます。
                     </small>
                     <div className="mt-1">
                       <small>
@@ -193,107 +169,34 @@ const App = () => {
                       </small>
                       <div className="collapse" id="musicWorkshop">
                         <Card className="card-body text-start">
-                          <div>
-                            <small>
-                              <span className="fw-bold">タイムテーブル</span>
-                              <br />
-                              13:00〜13:15　オープニング挨拶・振り分け・移動
-                              <br />
-                              13:15〜13:55　初級・中級の座学・歴史・リズムを紹介しつつミニコンサート、楽器紹介
-                              <br />
-                              13:55〜14:35　ワークショップ１（初級/中級）
-                              <br />
-                              14:35〜14:50　休憩
-                              <br />
-                              14:50〜15:30　ワークショップ２（初級/中級）
-                              <br />
-                              15:30〜15:45　音楽とダンスのセッション
-                              <br />
-                              15:45〜16:00　締めの挨拶
-                              <br />
-                            </small>
-                          </div>
-                          <div>
-                            <small>
-                              ◉楽器制限 |
-                              どんな楽器でもO.K（ただし、下の注意事項をご確認ください）
-                              <br />
-                              ◉人数 |初級・中級合わせて定員 50名
-                              <br />
-                              <span className="fw-bold">＜注意事項＞</span>
-                              <br />
-                              ※１講師はフィドルとティンホイッスルなどアイルランドの伝統楽器で教えます。
-                              <br />
-                              ※２他の楽器も参加可能ですが、フィドルやティンホイッスルなど、アイリッシュの音階が演奏できる楽器が推奨です。
-                              <br />
-                              ※３ティンホイッスルとリコーダーの違い
-                              <br />
-                              - 運指が違う
-                              <br />
-                              - キーが違う
-                              <br />
-                              -
-                              なので、ワークショップ参加にはティンホイッスルが推奨です。
-                              <br />
-                            </small>
-                          </div>
-                        </Card>
-                      </div>
-                    </div>
-                    <div className="mt-1">
-                      <small>
-                        <a
-                          className="text-primary"
-                          data-bs-toggle="collapse"
-                          href="#musicNote"
-                          role="button"
-                          aria-expanded="false"
-                          aria-controls="musicNote"
-                        >
-                          音楽ワークショップ楽譜
-                        </a>
-                      </small>
-                      <div className="collapse" id="musicNote">
-                        <Card className="card-body text-start">
                           <small>
-                            <p className="fw-bold">初級・中級共通</p>
-                            <a
-                              href={maggiePickiesPdf}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <p>Maggie Pickies</p>
-                            </a>
-                            <p className="fw-bold">初級</p>
-                            <a
-                              href={britchesPdf}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <p>Britches</p>
-                            </a>
-                            <a
-                              href={downByTheSallyGardenPdf}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <p>Down By the Sally Garden</p>
-                            </a>
-                            <p className="fw-bold">中級</p>
-                            <a
-                              href={hagWithTheMoneyPdf}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <p>Hag with the Money</p>
-                            </a>
-                            <a
-                              href={silverSpearPdf}
-                              target="_blank"
-                              rel="noreferrer"
-                            >
-                              <p>Silver Spear</p>
-                            </a>
+                            <p>
+                              アイルランドの伝統的なダンスチューンを数曲、ゆっくり繰り返し練習します。
+                              楽器の種類は問いません。（アコースティック楽器）
+                              最後は、ダンスワークショップと合わせて演奏することを目標にします。
+                            </p>
+                            <p>
+                              ＜課題曲＞ <br />
+                              ■Jim Morrison's（Jig）
+                              <br />
+                              ■Green Mountain（Reel）
+                              <br />
+                              ■Haste to the Wedding（Jig）
+                              <br />
+                            </p>
+                            <p>
+                              ＊楽器は各自お持ちください <br />
+                              ＊会場ではティンホイッスルの販売も行っています
+                              （貸し出しは行っておりません。ご了承ください）
+                              <br />
+                            </p>
+                            <p>
+                              講師：小嶋佑樹（Koji Koji Moheji）
+                              <br />
+                              スペインのバグパイプ（ガイタ）奏者、手回しオルガン奏者としてのパフォーマンスを中心に、ティンホイッスル、アコーディオン、果ては
+                              ジャグリングまで自在にこなし、各種イベントやワークショップ、YouTubeなどで幅広く活動中。
+                              山梨県を拠点に、ケルト音楽の普及を目指しています。
+                            </p>
                           </small>
                         </Card>
                       </div>
@@ -313,47 +216,39 @@ const App = () => {
                       </small>
                       <div className="collapse" id="danceWorkshop">
                         <Card className="card-body text-start">
-                          <div>
-                            <small>
-                              <span className="fw-bold">タイムテーブル</span>
+                          <small>
+                            <p>
+                              アイリッシュダンスにはたくさんの種類があります。
+                              今回は、ソロダンスではなく複数の人数で踊るグループダンス（ケーリーダンス・セットダンス）を取り上げる予定。
+                              全く踊ったことがない方でも大丈夫です。
+                            </p>
+                            <p>
+                              ＊マスク・手袋着用にてお願いします <br />
+                              ＊状況によっては、手をつながないダンスに変更する可能性があります{" "}
                               <br />
-                              13:00〜13:15　オープニング挨拶・振り分け・移動
+                              ＊動きやすい服装でお越しください <br />
+                              ＊動くと汗をかきます。飲み物、タオル、替えのマスクもご持参ください
+                            </p>
+                            <p>
+                              講師：寺町靖子 <br />
+                              アイリッシュダンス愛好家、CCEジャパン副会長。
+                              2000年より趣味としてアイリッシュダンスを習い、様々な種類のダンスを
+                              習得するとともに、その楽しさを伝えるためにイベント等でアイリッシュ
+                              ダンスの裾野を広げる活動をしている。
                               <br />
-                              13:15〜14:00　アイルランドの歴史とダンスについて（座学）・ストレッチとウォームアップ
-                              <br />
-                              14:00〜14:50　Maggie Pickieワークショップ(前半)
-                              <br />
-                              14:50〜15:00　休憩
-                              <br />
-                              15:00〜15:30　Maggie Pickieワークショップ(後半)
-                              <br />
-                              15:30〜15:45　音楽とダンスのセッション
-                              <br />
-                              15:45〜16:00　締めの挨拶
-                              <br />
-                            </small>
-                          </div>
-                          <div>
-                            <small>
-                              ◉動きやすい服装でお越しください
-                              <br />
-                              ◉ローファーのような底の平たい革靴でお越しください
-                              <br />
-                              ◉動くと汗をかきます。飲み物、タオル、替えのマスクもご用意ください
-                              <br />
-                              ◉マスク（不織布）着用をお願いします
-                              <br />
-                              ◉人数 |定員 40名
-                              <br />
-                            </small>
-                          </div>
+                            </p>
+                            <p>演奏：福島開（フィドル）</p>
+                            <p>
+                              最後に楽器チームとダンスチーム、合同でアンサンブルを楽しみます。
+                            </p>
+                          </small>
                         </Card>
                       </div>
                     </div>
                   </Col>
                   <Col md={2}>
                     <Image
-                      src={beginnerOkImg}
+                      src={chooseWhichYouLikeImg}
                       className="w-100 d-none d-md-inline"
                     />
                   </Col>
@@ -362,17 +257,24 @@ const App = () => {
               <li>
                 <h6>
                   <p className="text-secondary">
-                    2021年12月19日 17:00-20:00 コンサート（開場: 16:00）
+                    2022年11月19日 17:00-19:00 コンサート（開場: 16:00）※自由席
                   </p>
                 </h6>
                 <small>
-                  1.
-                  日本国内で活躍中のケルト音楽奏者達が出演するコンサートが開催されます。
-                  また開催地域にゆかりのあるミュージシャンも出演します。
-                  <br />
-                  2.
-                  チャレンジ枠として、一般募集により集まった出演者の演奏ステージもあります。
-                  (普段人前で演奏する機会がないけれど、頑張って練習している方などへの発表の場を作りたい)
+                  <p>
+                    2019年にスペインで開催された「Festival de
+                    Ortigueira」にて優勝を勝ち取ったYuki Kojima BANDメンバーと、
+                    安定感抜群の優しい音色を奏でるアイリッシュフルートの須貝知世、アイルランドのシンボルでもあるアイリッシュハープで幻想的な世界を届ける大橋志麻の豪華６名で、たっぷりケルト音楽の魅力をお届けします！
+                  </p>
+                  <p>
+                    小嶋佑樹（Yuki Kojima
+                    BAND）バグパイプ/ティンホイッスル/アコーディオン <br />
+                    中村大史（Yuki Kojima BAND）ギター <br />
+                    上沼健二（Yuki Kojima BAND）バウロン/ドラム <br />
+                    奥貫史子（Yuki Kojima BAND）フィドル/タップ <br />
+                    須貝知世　アイリッシュフルート <br />
+                    大橋志麻　アイリッシュハープ <br />
+                  </p>
                 </small>
               </li>
             </ul>
@@ -414,14 +316,14 @@ const App = () => {
             className="px-nav py-5 bg-secondary bg-opacity-75 text-white"
           >
             <h1>Tickets</h1>
-            <Image
-              src={priceImg}
-              className="w-lg-75 w-100 my-3 shadow-sm rounded"
-            />
+            <h5>
+              前売り（Peatix）/当日料金 一律3,000円 <br />
+              ＊Peatix前売りチケット販売期間：2022/10/1(土)〜11/12(土)
+            </h5>
 
             <div>
               <Button
-                className="shadow-sm"
+                className="shadow-sm disabled"
                 href="https://celtic-seed-2021-winter.peatix.com/view"
               >
                 申し込みページへ
@@ -442,13 +344,13 @@ const App = () => {
                 <div className="collapse" id="collapseTicket">
                   <Card className="card-body text-start text-black">
                     <small>
-                      ・Peatix前売りチケット販売期間は2021/10/23/(土)〜12/12/(日)です。
+                      ・料金はワークショップ・コンサートの通し料金です。
                       <br />
                       ・ワークショップに参加されない方は、コンサートの60分前(16:00)よりご入場いただけます。
                       <br />
                       ・三密を避けるため、お時間に余裕をもってお越しくださいますようご協力をお願いします。
                       <br />
-                      ・未就学児は無料です。
+                      ・小学生以下は無料です。
                       <br />
                       ・ご不明な点がありましたら
                       <a href="mailto:celticseedproject@gmail.com">
@@ -468,32 +370,17 @@ const App = () => {
           >
             <h1>Artists</h1>
             <Row>
-              <h5>音楽ワークショップ</h5>
+              <h3>ワークショップ</h3>
               <Artist
-                imgSrc={tomoyoSugaiImg}
-                homepage="http://www.tomoyosugai.com/thousands-of-flowers/"
-                name="須貝知世"
-                size={6}
+                imgSrc={yukiKojima}
+                homepage="https://www.youtube.com/channel/UC1azPTdA4tDuET5yfsWwbzw"
+                name="小嶋佑樹"
+                size={4}
               />
-              <Artist
-                imgSrc={komatsuDaiImg}
-                homepage="https://daikomatsu.com/"
-                name="小松大"
-                size={6}
-              />
-            </Row>
-            <Row>
-              <h5>ダンスワークショップ</h5>
               <Artist
                 imgSrc={yasukoTeramachiImg}
                 homepage="#"
                 name="寺町靖子"
-                size={4}
-              />
-              <Artist
-                imgSrc={hiroshiJoImg}
-                homepage="https://note.com/johiroshi/"
-                name="城拓"
                 size={4}
               />
               <Artist
@@ -504,7 +391,7 @@ const App = () => {
               />
             </Row>
             <Row>
-              <h5>コンサート</h5>
+              <h3>コンサート</h3>
               <Artist
                 imgSrc={yukiKojimaBandImg}
                 homepage="https://kojikojimoheji.com/wp01/2019/09/18/%E3%83%95%E3%83%AB%E6%BC%94%E5%A5%8F%E5%8B%95%E7%94%BB%EF%BC%81%E3%80%8Cfestival-de-ortigueira-2019-yuki-kojima-band%E3%80%8D%EF%BC%81%EF%BC%81/"
@@ -512,21 +399,9 @@ const App = () => {
                 size={4}
               />
               <Artist
-                imgSrc={sCeltsImg}
-                homepage="https://shindai-guide.com/circle/scelts/"
-                name="S-Celts"
-                size={4}
-              />
-              <Artist
-                imgSrc={allyCaravanImg}
-                homepage="https://allys30.wixsite.com/ally"
-                name="Ally Caravan"
-                size={4}
-              />
-              <Artist
-                imgSrc={deDonhnaighImg}
-                homepage="https://twitter.com/ddomhnaigh"
-                name="Dé Domhnaigh"
+                imgSrc={tomoyoSugaiImg}
+                homepage="http://www.tomoyosugai.com/thousands-of-flowers/"
+                name="須貝知世"
                 size={4}
               />
               <Artist
@@ -535,36 +410,16 @@ const App = () => {
                 name="大橋志麻"
                 size={4}
               />
-              <Artist
-                imgSrc={rikoMatsuokaImg}
-                homepage="https://www.imliving.com/harp/profile.html"
-                name="松岡莉子"
-                size={4}
-              />
             </Row>
-            <p className="text-secondary">
-              チャレンジ枠として、演奏したい方も募集しています。（参加費：1000円）
-            </p>
           </Container>
           <Container id="supports" fluid className="px-nav py-5 bg-white">
             <h1>Supports</h1>
             <Row>
+              <Col xs={3}></Col>
               <Support
                 imgSrc={embassyImg}
                 homepage="https://www.dfa.ie/ja/irish-embassy/japan/"
                 name="駐日アイルランド大使館"
-                size={3}
-              />
-              <Support
-                imgSrc={odeIncImg}
-                homepage="https://odeinc.jp/"
-                name="Ode.inc"
-                size={3}
-              />
-              <Support
-                imgSrc={celtNoFueImg}
-                homepage="https://celtnofue.com/"
-                name="ケルトの笛屋さん"
                 size={3}
               />
               <Support
@@ -573,6 +428,18 @@ const App = () => {
                 name="Trad On"
                 size={3}
               />
+            </Row>
+            <Row className="shadow-sm rounded p-3 bg-white border">
+              <div>
+                【山梨ケルト音楽交流会】
+                <br />
+                Yuki Kojima
+                BANDの代表の小嶋佑樹が主体となり、甲州市を中心に月に一回不定期でケルト音楽の練習会を開催しています。
+                <br />
+                楽器を始めたばかりの方でも参加しやすい、アットホームな集まりにしていますのでお気軽にどうぞ！
+                <br />
+                開催日や、次回取り組む予定の曲などはツイッターにてお知らせしていますので、是非チェックしてみてください。
+              </div>
             </Row>
           </Container>
           <Footer />
