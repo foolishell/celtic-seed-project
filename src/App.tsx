@@ -323,8 +323,8 @@ const App = () => {
 
             <div>
               <Button
-                className="shadow-sm disabled"
-                href="https://celtic-seed-2021-winter.peatix.com/view"
+                className="shadow-sm"
+                href="https://peatix.com/event/3357235/view?k=557d62c9b26b57bf2cf8121ed6ca73bf64243d84"
               >
                 申し込みページへ
               </Button>
@@ -415,19 +415,14 @@ const App = () => {
           <Container id="supports" fluid className="px-nav py-5 bg-white">
             <h1>Supports</h1>
             <Row>
-              <Col xs={3}></Col>
-              <Support
-                imgSrc={embassyImg}
-                homepage="https://www.dfa.ie/ja/irish-embassy/japan/"
-                name="駐日アイルランド大使館"
-                size={3}
-              />
+              <Col xs={4}></Col>
               <Support
                 imgSrc={tradOnImg}
                 homepage="https://www.trad-on.com"
                 name="Trad On"
-                size={3}
+                size={4}
               />
+              <Col xs={4}></Col>
             </Row>
             <Row className="shadow-sm rounded p-3 bg-white border">
               <div>
