@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.17e34825.chunk.css",
-    "main.js": "/static/js/main.c715f6ce.chunk.js",
-    "main.js.map": "/static/js/main.c715f6ce.chunk.js.map",
+    "main.js": "/static/js/main.a5a5836a.chunk.js",
+    "main.js.map": "/static/js/main.a5a5836a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ab5ac6c9.js",
     "runtime-main.js.map": "/static/js/runtime-main.ab5ac6c9.js.map",
     "static/js/2.8e3b9582.chunk.js": "/static/js/2.8e3b9582.chunk.js",
@@ -14,7 +14,6 @@
     "static/js/2.8e3b9582.chunk.js.LICENSE.txt": "/static/js/2.8e3b9582.chunk.js.LICENSE.txt",
     "static/media/chooseWhichYouLike.ec5c63ba.jpg": "/static/media/chooseWhichYouLike.ec5c63ba.jpg",
     "static/media/concert.edc6ebec.jpg": "/static/media/concert.edc6ebec.jpg",
-    "static/media/embassy.c002749a.png": "/static/media/embassy.c002749a.png",
     "static/media/kaiFukushima.68f0c567.jpg": "/static/media/kaiFukushima.68f0c567.jpg",
     "static/media/mainLogo.376d0ba0.png": "/static/media/mainLogo.376d0ba0.png",
     "static/media/shimaOhashi.e794fd3c.jpg": "/static/media/shimaOhashi.e794fd3c.jpg",
@@ -29,6 +28,6 @@
     "static/js/runtime-main.ab5ac6c9.js",
     "static/js/2.8e3b9582.chunk.js",
     "static/css/main.17e34825.chunk.css",
-    "static/js/main.c715f6ce.chunk.js"
+    "static/js/main.a5a5836a.chunk.js"
   ]
 }
