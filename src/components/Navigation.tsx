@@ -8,7 +8,7 @@ const Navigation = () => {
       id="navigation"
     >
       <div className="p-3">
-        <img src={mainLogoImg} className="rounded-circle w-100" />
+        <img src={mainLogoImg} className="rounded-circle w-100" alt="" />
       </div>
       <Nav.Link className="" href="#top">
         Top

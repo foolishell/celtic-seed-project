@@ -9,35 +9,19 @@ import affImg from "./image/aff.png";
 import twitterImg from "./image/twitter.png";
 import facebookImg from "./image/facebook.png";
 import concertImg from "./image/concert.jpg";
-import bgImg from "./image/bg.png";
-import beginnerOkImg from "./image/beginnerOk.jpg";
-import priceImg from "./image/price.jpg";
 import tomoyoSugaiImg from "./image/artists/tomoyoSugai.jpg";
 import yukiKojima from "./image/artists/yukiKojima.png";
 import yasukoTeramachiImg from "./image/artists/yasukoTeramachi.jpg";
-import hiroshiJoImg from "./image/artists/hiroshiJo.jpg";
 import kaiFukushimaImg from "./image/artists/kaiFukushima.jpg";
 import yukiKojimaBandImg from "./image/artists/yukiKojimaBand.jpg";
-import sCeltsImg from "./image/artists/scelts.jpg";
-import allyCaravanImg from "./image/artists/allyCaravan.jpg";
-import deDonhnaighImg from "./image/artists/deDomhnaigh.jpg";
 import shimaOhashiImg from "./image/artists/shimaOhashi.jpg";
-import rikoMatsuokaImg from "./image/artists/rikoMatsuoka.jpg";
-import embassyImg from "./image/supports/embassy.png";
-import odeIncImg from "./image/supports/ode.jpg";
-import celtNoFueImg from "./image/supports/celtNoFue.png";
 import tradOnImg from "./image/supports/tradOn.png";
 import chooseWhichYouLikeImg from "./image/chooseWhichYouLike.jpg";
 import { Artist, Support } from "./components/ArtistAndSupport";
-import britchesPdf from "./image/pdf/britches.pdf";
-import downByTheSallyGardenPdf from "./image/pdf/downByTheSallyGarden.pdf";
-import hagWithTheMoneyPdf from "./image/pdf/hagWithTheMoney.pdf";
-import maggiePickiesPdf from "./image/pdf/maggiePickies.pdf";
-import silverSpearPdf from "./image/pdf/silverSpear.pdf";
 
 const App = () => {
   useEffect(() => {
-    var scrollSpy = new ScrollSpy(document.body, {
+    new ScrollSpy(document.body, {
       target: "#navigation",
     });
   });
