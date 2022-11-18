@@ -118,6 +118,21 @@ const App = () => {
           </Container>
           <Container fluid id="events" className="px-nav py-5 bg-white">
             <h1>Events</h1>
+            <div className="shadow rounded p-3 bg-white text-alert">
+              <p className="text-bold text-dark">お詫びとお知らせ</p>
+              <small>
+                9日に開催のイベント「Celtic Seed
+                Project」ですが、出演者の中村大史に陽性反応が出た為、イベントを欠席致します。
+                <br />
+                中止にするか悩みましたが開催する事にしました。
+                <br />
+                出演者の変更によりご来場いただけないお客さまには、チケット代の払い戻し対応を致しますので以下までご連絡下さい。
+                <br />
+                <a href="mailto:celticseedproject@gmail.com">
+                  celticseedproject@gmail.com
+                </a>
+              </small>
+            </div>
             <ul className="timeline text-start">
               <li>
                 <h6>
